@@ -1,4 +1,5 @@
 # This version max Natural MI of x and max Adversarial MI of x_adv
+
 import os
 import argparse
 import numpy as np
