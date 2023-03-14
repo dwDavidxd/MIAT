@@ -7,6 +7,7 @@ The implementation of "Improving Adversarial Robustness via Mutual Information E
 Train standard AT model: train_standard.py
 
 Two types of methods for training the estimator of MI: train_MI_estimator.py and train_MI_estimator_beta.py
+
 More references on learning MI: 
 1. [Learning Adversarially Robust Representations via Worst-Case Mutual Information Maximization](https://github.com/schzhu/learning-adversarially-robust-representations)
 2. [Learning-Disentangled-Representations-via-Mutual-Information-Estimation](https://github.com/MehdiZouitine/Learning-Disentangled-Representations-via-Mutual-Information-Estimation)
