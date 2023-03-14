@@ -1,5 +1,4 @@
 # This version use cosine distance to enhance the difference between the MI of adv and the MI of nat.
-
 import os
 import argparse
 import numpy as np
