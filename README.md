@@ -34,9 +34,29 @@ The overview of our proposed Natural-Adversarial Mutual Information-based Defens
 - To install necessary python packages, run `pip install -r requirements.txt`.
 
 
-Train standard AT model: train_standard.py
+## Experiments
+### Data
+- Please download and place all datasets into the data directory. 
 
-Two types of methods for training the estimator of MI: train_MI_estimator.py or train_MI_estimator_beta.py
+
+### Training
+To train the standard AT model
+
+```
+python train_standard.py --model_dir 'your checkpoint directory for the target model'
+```
+
+To train the estimator of MI (two types of methods)
+
+```
+python train_MI_estimator.py --model_dir 'your checkpoint directory for MI estimator'
+```
+
+or 
+
+```
+python train_MI_estimator_only_max.py --model_dir 'your checkpoint directory for MI estimator'
+```
 
 More references on learning MI: 
 1. [Learning Adversarially Robust Representations via Worst-Case Mutual Information Maximization](https://github.com/schzhu/learning-adversarially-robust-representations)
@@ -44,5 +64,37 @@ More references on learning MI:
 3. [DeepInfomaxPytorch](https://github.com/DuaneNielsen/DeepInfomaxPytorch)
 4. [DIM](https://github.com/rdevon/DIM)
 
-Train the target model: train_MIAT.py
+To train the target model using NAMID
 
+```
+python train_MIAT.py --model_dir 'your checkpoint directory for the target model'
+```
+
+
+### Test
+To test the learned target model
+
+```
+python test_comparison.py --model_dir 'your checkpoint directory for the target model'
+```
+
+
+## License and Contributing
+- This README is formatted based on [paperswithcode](https://github.com/paperswithcode/releasing-research-code).
+- Feel free to post issues via Github. 
+
+
+## Reference
+If you find the code useful in your research, please consider citing our paper:
+
+
+<pre>
+@inproceedings{zhou2022improving,
+  title={Improving Adversarial Robustness via Mutual Information Estimation},
+  author={Zhou, Dawei and Wang, Nannan and Gao, Xinbo and Han, Bo and Wang, Xiaoyu and Zhan, Yibing and Liu, Tongliang},
+  booktitle={International Conference on Machine Learning},
+  pages={27338--27352},
+  year={2022},
+  organization={PMLR}
+}
+</pre>
