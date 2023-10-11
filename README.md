@@ -30,7 +30,7 @@ The overview of our proposed Natural-Adversarial Mutual Information-based Defens
 
 
 ## Requirements
-- This codebase is written for `python3` and 'pytorch'.
+- This codebase is written for `python3` and `pytorch`.
 - To install necessary python packages, run `pip install -r requirements.txt`.
 
 
