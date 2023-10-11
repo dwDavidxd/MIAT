@@ -20,7 +20,7 @@ from advertorch.attacks import LinfPGDAttack, CarliniWagnerL2Attack, DDNL2Attack
 from utils_attack.FWA import LinfFWA
 from utils_attack.ti_dim_gpu import TIDIM_Attack
 
-parser = argparse.ArgumentParser(description='PyTorch CIFAR TRADES Adversarial Training')
+parser = argparse.ArgumentParser(description='PyTorch Test')
 parser.add_argument('--seed', type=int, default=1, metavar='S', help='random seed (default: 1)')
 parser.add_argument('--batch-size', type=int, default=1000, metavar='N',
                     help='input batch size for training (default: 128)')
