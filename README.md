@@ -13,7 +13,7 @@ To alleviate this negative effect, in this paper, we investigate the dependence 
 
 
 <p float="left" align="center">
-<img src="arch.png" width="800" /> 
+<img src="arch.png" width="400" /> 
 <figcaption align="center">
 A visual illustration of disentangling the standard MI into the natural MI and the adversarial MI. The longdash lines show that the adversarial sample is disassembled into the natural pattern (derived from the natural sample) and the adversarial pattern (derived from the adversarial noise). The dotted lines denote the operation of disentangling the standard MI into the natural MI and the adversarial MI.
 </figcaption>
