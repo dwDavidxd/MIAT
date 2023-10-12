@@ -40,13 +40,13 @@ The overview of our proposed Natural-Adversarial Mutual Information-based Defens
 
 
 ### Training
-To train the standard AT model
+- To train the standard AT model
 
 ```
 python train_standard.py --model_dir 'your checkpoint directory for the target model'
 ```
 
-To train the estimator of MI (two types of methods)
+- To train the estimator of MI (two types of methods)
 
 ```
 python train_MI_estimator.py --model_dir 'your checkpoint directory for MI estimator'
@@ -64,7 +64,7 @@ More references on learning MI:
 3. [DeepInfomaxPytorch](https://github.com/DuaneNielsen/DeepInfomaxPytorch)
 4. [DIM](https://github.com/rdevon/DIM)
 
-To train the target model using NAMID
+- To train the target model using NAMID
 
 ```
 python train_MIAT.py --model_dir 'your checkpoint directory for the target model'
